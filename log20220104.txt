@@ -1,0 +1,17 @@
+2022-01-04 12:04:57.130 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-04 12:04:57.147 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44391/swagger/index.html - -
+2022-01-04 12:04:57.164 +05:30 [INF] Hosting environment: Development
+2022-01-04 12:04:57.165 +05:30 [INF] Content root path: C:\Prathmesh\Projects\SerilogWithSink
+2022-01-04 12:04:57.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44391/_framework/aspnetcore-browser-refresh.js - -
+2022-01-04 12:04:57.377 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44391/swagger/index.html - - - 200 - text/html;charset=utf-8 230.4925ms
+2022-01-04 12:04:57.386 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44391/_framework/aspnetcore-browser-refresh.js - - - 200 11949 application/javascript;+charset=utf-8 9.2135ms
+2022-01-04 12:04:57.548 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44391/swagger/v1/swagger.json - -
+2022-01-04 12:04:57.640 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44391/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 91.7150ms
+2022-01-04 12:05:02.115 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44391/WeatherForecast - -
+2022-01-04 12:05:02.141 +05:30 [INF] Executing endpoint 'SerilogWithSink.Controllers.WeatherForecastController.Get (SerilogWithSink)'
+2022-01-04 12:05:02.154 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogWithSink.WeatherForecast] Get() on controller SerilogWithSink.Controllers.WeatherForecastController (SerilogWithSink).
+2022-01-04 12:05:02.157 +05:30 [INF] Get method called from WeatherForecastController.
+2022-01-04 12:05:02.163 +05:30 [INF] Executing ObjectResult, writing value of type 'SerilogWithSink.WeatherForecast[]'.
+2022-01-04 12:05:02.178 +05:30 [INF] Executed action SerilogWithSink.Controllers.WeatherForecastController.Get (SerilogWithSink) in 17.1037ms
+2022-01-04 12:05:02.178 +05:30 [INF] Executed endpoint 'SerilogWithSink.Controllers.WeatherForecastController.Get (SerilogWithSink)'
+2022-01-04 12:05:02.178 +05:30 [INF] Request finished HTTP/2 GET https://localhost:44391/WeatherForecast - - - 200 - application/json;+charset=utf-8 63.2221ms
